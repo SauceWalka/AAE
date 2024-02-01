@@ -1,0 +1,61 @@
+.wholefoot {
+    background-color: gray;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.foot {
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.companyinfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.companyinfo h2 {
+    font-size: 15px;
+    color: #000;
+}
+
+.footdesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    gap: 30px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.center h1 {
+    font-size: 20px;
+    color: #000;
+}
+
+.center h2 {
+    font-size: 15px;
+    color: #000;
+}
