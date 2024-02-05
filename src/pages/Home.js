@@ -11,7 +11,7 @@ export default function Home() {
                 <br></br>
                 <li>"app.js", "navbar.js", "index.js", and "index.css" should be changed very little. Please consult John before any changes are made</li>
                 <br></br>
-                <li>Please erase these sections whn you begin the work on the site. Also if you have any questions related to this project please reach out to John at 443-821-6772</li>
+                <li> erase these sections whn you begin the work on the site. Also if you have any questions related to this project please reach out to John at 443-821-6772</li>
             </ul>
             <br></br>
             <h5>This template was created by HBIndustry INC.</h5>
