@@ -1,15 +1,39 @@
 .fullpage {
     text-align: center;
+    margin: 0;
+    padding-top: 0;
+    width: 100%;
 }
 
-h2 {
-    font-size: 40px;
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h5 {
-    font-size: 10px;
+.head_top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    gap: 15px;
+    margin: 0;
 }
 
-ul {
-    font-size: 30px;
+.head_bot {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    gap: 7px;
+    margin: 0;
+}
+
+.head_top1 {
+    font-size: .9em;
+    align-items: center;
+}
+
+.head_top2 {
+    font-size: 1.75em;
 }

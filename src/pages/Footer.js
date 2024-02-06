@@ -12,9 +12,9 @@ export default function Footer() {
         <section class="company">
             <img src={logomono} width="150" height="75" />
         <section class="companyinfo">
-            <h2>Company Name (please change)</h2>
-            <h2>xxx-xxx-xxxx (please change)</h2>
-            <h2>company@email.com (please change)</h2>
+            <h2>Andrew Arc Electric LLC.</h2>
+            <h2>443-350-8335 </h2>
+            <h2>aarchelectric@gmail.com</h2>
         </section>
         </section>
         </section>
