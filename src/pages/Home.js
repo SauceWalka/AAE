@@ -1,13 +1,16 @@
 import "./css/home.css"
 import Footer from "./Footer.js"
+import Qmark from "./images/Qmark.jpg"
+import headQmark from "./images/headQmark.jpg"
 
 export default function Home() {
     return <div>
         <section class="fullpage">
+            <section class="shadow-pop-header">
             <section class="header">
                 <section class="head_top">
                     <section class="head_top1">
-                        <section><h2>Image of you here</h2></section>
+                        <section><img src={headQmark} width="250" height="150"/></section>
                     </section>
                     <section class="head_top2">
                         <h2>Andrew ARC Electric LLC.</h2>
@@ -27,12 +30,13 @@ export default function Home() {
                     </section>
                 </section>
             </section>
+            </section>
             <section class="projects_title">
                 <h2>Projects Completed</h2>
             </section>
             <section class="projects">
                 <section class="outer_box">
-                    <section class="img_slider"><h2>Slider needed here</h2></section>
+                    <section class="img_slider"><img src={Qmark} width="800" height="400"/></section>
                     <section class="inner_box">
                         <h2>Description for your projects</h2>
                     </section>
@@ -42,7 +46,8 @@ export default function Home() {
                 <section class="learn_title"><h2>Learn</h2></section>
                 <section class="learn_contents">
                     <section class="learn_vidoes">
-                        <h2>Video placeholder</h2>
+                        <section class="video_content"><img src={Qmark} width="500" height="275"/></section>
+                        <section class="video_content"><img src={Qmark} width="500" height="275"/></section>
                     </section>
                     <section class="learn_questions">
                         <section class="q"><h2>What is a Tesla Powerwall?</h2></section>
@@ -67,7 +72,7 @@ export default function Home() {
             <section class="reach_out">
                 <section class="b1_box">
                     <h2>Who refered you?</h2>
-                    <button class="b1" src="google.com">Fill out our referral sheet!!</button>
+                    <button class="b1" src="google.com">Fill out our referral<br></br>sheet!!</button>
                 </section>
                 <section class="b1_box">
                     <h2>Looking for a quote?</h2>
