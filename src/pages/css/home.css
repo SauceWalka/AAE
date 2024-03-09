@@ -22,7 +22,7 @@
     gap: 20px;
 }
 
-@-webkit-keyframes .shadow-pop-header {
+@-webkit-keyframes shadow-pop-header {
     0% {
       -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
               box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
@@ -56,7 +56,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    gap: 15px;
+    gap: 8px;
     margin: 0;
 }
 
@@ -64,7 +64,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 1%;
+    gap: 3px;
     background-color: #A20C32;
 }
 
@@ -76,31 +76,38 @@
     align-items: center;
     gap: 7px;
     margin: 0;
-    color: #F9F8F9;
+    color: #FFFFFF;
     font-family: bebasneue-regular;
     font-size: 1.3em;
 }
 
 .head_top1 {
-    font-size: .9em;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    font-family: bebasneue-regular;
     align-items: center;
     background-color: #FFFFFF;
     padding: 2%;
-    opacity: 80%;
+    padding-bottom: 0;
+    opacity: 100%;
     color: #231F20;
     border-style: solid;
     border-color: #000000;
     border-width: 10px;
 }
 
+.head_top1 h3 {
+    font-weight: lighter;
+}
+
 .head_top2 {
-    font-size: 2.2em;
+    font-size: 5em;
     font-family: bebasneue-regular;
-    background-color: #A20C32;
-    padding: 2%;
-    color: #F9F8F9;
-    text-shadow: 2px 2px 4px #000;
+    background-color: none;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    color: #A20C32;
+    text-shadow: 3px 3px 6px #000;
 }
 
 .head_bot_header h2{
@@ -112,7 +119,7 @@
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 0%;
-    color: #F9F8F9;
+    color: #FFFFFF;
     font-family: bebasneue-regular;
 }
 
@@ -162,16 +169,16 @@
 
 .learn_title {
     text-align: left;
-    padding-left: 2%;
-    color:#F9F8F9;
+    padding-left: 5%;
+    color:#A20C32;
     font-family: bebasneue-regular;
-    font-size: 1.1em;
+    font-size: 2em;
 }
 
 .learn_contents {
     display: flex;
     flex-direction: row;
-    gap: 4px;
+    gap: 30px;
     padding-right: 4%;
 }
 
@@ -185,9 +192,7 @@
 }
 
 .video_content {
-    border-style: solid;
-    border-color: #000000;
-    border-width: .9em;
+    
 }
 
 .learn_questions {
@@ -249,10 +254,10 @@
 
 .review_title {
     text-align: left;
-    padding-left: 2%;
-    color:#F9F8F9;
+    padding-left: 4%;
+    color:#A20C32;
     font-family: bebasneue-regular;
-    font-size: 1.1em;
+    font-size: 2em;
 }
 
 .review_content {
@@ -285,6 +290,12 @@
 .b1 {
     background-color: goldenrod;
     color: #000000;
-    border-radius: 25px;
+    border-radius: 20px;
     border-width: 5px;
+}
+
+.b1 a {
+    font-size:1.8em;
+    color:#A20C32;
+    padding:10px;
 }
