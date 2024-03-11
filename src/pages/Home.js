@@ -1,7 +1,6 @@
 import "./css/home.css"
 import Footer from "./Footer.js"
 import Qmark from "./images/Qmark.jpg"
-import headQmark from "./images/headQmark.jpg"
 
 export default function Home() {
     return <div>

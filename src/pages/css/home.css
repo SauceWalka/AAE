@@ -5,8 +5,14 @@
 .fullpage {
     text-align: center;
     margin: 0;
-    padding-top: 0;
+    padding: 0;
+    padding-right: 1%;
     width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .shadow-pop-header {
