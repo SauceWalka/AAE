@@ -23,7 +23,7 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: #BBBBBB;
-    padding: 0;
+    padding-bottom: 2%;
 }
 
 @-webkit-keyframes shadow-pop-header {

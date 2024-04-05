@@ -11,16 +11,16 @@ export default function Navbar() {
         </Link>  
         <ul>
             <li>
-            <HashLink to="/#PC"><b>Projects</b></HashLink>
+            <HashLink to="/#Projects"><b>Projects</b></HashLink>
             </li>
             <li>
-            <HashLink to="/#LT"><b>Learn</b></HashLink>
+            <HashLink to="/#Learn"><b>Learn</b></HashLink>
             </li>
             <li>
-            <HashLink to="/#FT"><b>Future</b></HashLink>
+            <HashLink to="/#Future"><b>Future</b></HashLink>
             </li>
             <li>
-            <HashLink to="/#RT"><b>Review</b></HashLink>
+            <HashLink to="/#Reviews"><b>Reviews</b></HashLink>
             </li>
         </ul>
     </nav>

@@ -25,7 +25,7 @@ export default function Home() {
                 </section>
             </section>
             </section>
-            <section id="PC" class="projects_title">
+            <section id="Projects" class="projects_title">
                 <h2>Projects Completed</h2>
             </section>
             <section class="projects">
@@ -35,7 +35,7 @@ export default function Home() {
             </section>
             <section class="shadow-pop-header">
             <section class="learn">
-                <section id="LT" class="learn_title"><h2>Learn</h2></section>
+                <section id="Learn" class="learn_title"><h2>Learn</h2></section>
                 <section class="learn_contents">
                     <section class="learn_vidoes">
                         <section><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/koRS2G5o3ek?si=l2iodu8OmCYhHosK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></section>
@@ -50,7 +50,7 @@ export default function Home() {
                 </section>
             </section>
             </section>
-            <section id="FT" class="future_title"><h2>Future</h2></section>
+            <section id="Future" class="future_title"><h2>Future</h2></section>
             <section class="future">
                 <section class="future1">
                     <h2>What do we want to add here?</h2>
@@ -61,7 +61,7 @@ export default function Home() {
             </section>
             <section class="shadow-pop-header">
             <section class="review">
-                <section id="RT" class="review_title"><h2>Reviews</h2></section>
+                <section id="Reviews" class="review_title"><h2>Reviews</h2></section>
                 <section class="review_content"><h2>Need python backend</h2></section>
             </section>
             </section>
