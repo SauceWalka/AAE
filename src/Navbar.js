@@ -1,4 +1,5 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import { HashLink } from "react-router-hash-link"
 import logo from "./logo.png"
 import "./index.css"
 
@@ -6,10 +7,21 @@ export default function Navbar() {
     return ( 
     <nav className="nav">
         <Link to="/" className="site-title">
-            <img src={logo} width="300" height="150"/>
-        </Link>
+            <img src={logo} width="150" height="75"/>
+        </Link>  
         <ul>
-            <CustomLink to="/Temp"><b>Need to fix these</b></CustomLink>
+            <li>
+            <HashLink to="/#PC"><b>Projects</b></HashLink>
+            </li>
+            <li>
+            <HashLink to="/#LT"><b>Learn</b></HashLink>
+            </li>
+            <li>
+            <HashLink to="/#FT"><b>Future</b></HashLink>
+            </li>
+            <li>
+            <HashLink to="/#RT"><b>Review</b></HashLink>
+            </li>
         </ul>
     </nav>
   )

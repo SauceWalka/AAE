@@ -10,7 +10,6 @@ function App() {
     <div className="container">
       <Routes>
         <Route path="/" element= {<Home />} />
-        <Route path="/Temp" elements= {<Home />} />
         <Route path="/FAQ" element={<FAQ />} />
       </Routes>
     </div>

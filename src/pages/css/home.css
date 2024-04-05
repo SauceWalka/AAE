@@ -20,13 +20,10 @@ body {
 	        animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 .header {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background-color: #BBBBBB;
-    padding: 3%;
-    gap: 5px;
+    padding: 0;
 }
 
 @-webkit-keyframes shadow-pop-header {
@@ -64,53 +61,55 @@ body {
     width: 100%;
     justify-content: space-around;
     margin: 0;
+    gap: 0;
 }
 
-.head_bot_bot {
+.certs {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    gap: 0;
+    gap: 25px;
     margin: 0;
-    color: #A20C32;
-    font-family: bebasneue-regular;
-    font-size: 1.3em;
-    padding: 0;
+    padding-bottom: 1%;
 }
 
-.head_top1 {
+.contact {
     font-size: 1.3em;
     font-family: bebasneue-regular;
     align-items: center;
     background-color: #FFFFFF;
-    padding: 2%;
-    padding-bottom: 0;
+    padding: 10%;
     opacity: 100%;
     color: #231F20;
     border-style: solid;
     border-color: #000000;
     border-width: 10px;
+    width: 100%;
 }
 
-.head_top1 h3 {
+.contact_space {
+    padding-top: 3%;
+}
+
+.contact h3 {
     font-weight: lighter;
 }
 
-.head_top2 {
+.title {
     display: flex;
     flex-direction: column;
     font-family: bebasneue-regular;
     background-color: none;
     padding: 0;
     margin: 0;
-    gap: 8px;
+    gap: 0;
     color: #A20C32;
 }
 
-.head_top2 p {
-    font-size: 5em;
+.title p {
+    font-size: 4.5em;
     text-shadow: 3px 3px 6px #000;
 }
 
@@ -132,29 +131,19 @@ body {
 .outer_box {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     padding-bottom: 2%;
 }
 
 .img_slider{
     width: 75%;
+    height: 100%;
     text-align: center;
     border-style: solid;
     border-color: black;
     border-width: .5em;
-    z-index: 0;
-}
-
-.inner_box {
-    width: 25%;
-    text-align: center;
-    color:#F9F8F9;
-    background-color: #A20C32;
-    font-family: bebasneue-regular;
-    padding: 3rem;
-    padding-top: 1rem;
-    font-size: 1.3em;
+    z-index: 1;
 }
 
 .learn {
@@ -204,8 +193,10 @@ body {
     color:#F9F8F9;
     padding-top: 5%;
     padding-bottom: 5%;
+    width: 100%;
     height: 100%;
     align-items: center;
+    line-height: 370%;
     font-family: bebasneue-regular;
     font-size: 1.9em;
 }
