@@ -7,7 +7,7 @@ export default function Navbar() {
     return ( 
     <nav className="nav">
         <Link to="/" className="site-title">
-            <img src={logo} width="150" height="75"/>
+            <img src={logo} width="225" height="100"/>
         </Link>  
         <ul>
             <li>
