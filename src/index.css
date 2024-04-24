@@ -7,7 +7,7 @@
 }
 
 body {
-  margin: 0
+  margin: 0;
 }
 
 .container {
@@ -25,6 +25,8 @@ body {
   gap: 2rem;
   padding: 0;
   padding-right: 30px;
+  position: absolute;
+  z-index: 1;
 }
 
 .site-title {
@@ -42,6 +44,7 @@ body {
   list-style: none;
   display: flex;
   gap: 1rem;
+  padding-top: 1%;
 }
 
 .nav a {
@@ -51,10 +54,18 @@ body {
   display: flex;
   align-items: center;
   padding: .25rem;
-  padding-right: 0;
+  padding-right: 1%;
   font-size: 3rem;
   font-family: bebasneue-regular;
   color: #000;
+}
+
+.nav li {
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #000;
+  padding-right: 1%;
+  background-color: #A20C32;
 }
 
 .nav li:hover {

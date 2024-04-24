@@ -6,14 +6,19 @@ import Slider from "./Slider.js"
 
 export default function Home() {
     return <div>
+        <body>
         <section class="fullpage">
                 <section class="image_top">
                 <section class="head_top">   
                     <section class="title">
                             <h2><strong>Andrews Ark<br/>Electric LLC.</strong></h2>
                         <section class="certs">
-                            <img src={TCert} width="210" height="135"/>
-                            <img src={"https://live.staticflickr.com/65535/53611360881_f6a08a60d2_n.jpg"} width="262.5" height="135"/>
+                            <section class="cert1">
+                                <img src={TCert} width="210" height="135"/>
+                            </section>
+                            <section class="cert2">
+                                <img src={"https://live.staticflickr.com/65535/53611360881_f6a08a60d2_n.jpg"} width="262.5" height="135"/>
+                            </section>
                         </section>
                     </section>
                     <section class="contact_space">
@@ -54,12 +59,39 @@ export default function Home() {
             </section>
             <section id="Future" class="future_title"><h2>What We Do</h2></section>
             <section class="future">
-                <section class="future1">
-                    <h2>What do we want to add here?</h2>
-                </section>
-                <section class="future1">
-                    <h2>What do we want to add here?</h2>
-                </section>
+                <section class="future_content">
+                    <section class="future_top">
+                        <section class="future_left">
+                            <h2>Andrews Ark Electric: Your Trusted Partner for Tesla and SPAN Products</h2>
+                            <h3>Quality Installation Services at Affordable Prices</h3>
+                            <h4>Are you looking for a reliable and professional company that can help you 
+                                with your Tesla and SPAN products? Do you want to enjoy the benefits of clean
+                                and efficient energy solutions for your home or business? If so, you have come
+                                to the right place. Andrews Ark Electric is a company that specializes in Tesla
+                                and SPAN products and installation services. We have the experience, expertise,
+                                    and equipment to handle any project, big or small. Whether you need a Tesla
+                                    Powerwall, a Tesla Solar Roof, a SPAN Smart Panel, or any other Tesla or SPAN
+                                    product, we can install it for you with the highest quality and customer
+                                    satisfaction. Here are some of the reasons why you should choose Andrews
+                                        Ark Electric for your Tesla and SPAN needs:</h4>
+                        </section>
+                        <section class="future_right">
+                            <ul>
+                                <li><p>We have a loyal and satisfied customer base. We have many positive reviews and testimonials from our previous clients who have enjoyed our services and products.</p></li>
+                                <li><p>We provide a warranty and a guarantee for our work. We stand behind our quality and will fix any issues that may arise within the warranty period.</p></li>
+                                <li><p>We have a team of skilled and friendly technicians who will treat your property with respect and care. They will arrive on time, work efficiently, and clean up after themselves.</p></li>                        
+                                <li><p>We offer competitive and transparent pricing. We will give you a free estimate and a detailed breakdown of the costs before we start the work. No hidden fees or surprises.</p></li>
+                                <li><p>We are certified and authorized by Tesla and SPAN to install their products. This means we have the training and knowledge to follow their standards and specifications.</p></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="future_bottom">
+                        <h2>If you are interested in learning more about Andrews Ark Electric and how we can help
+                            you with your Tesla and SPAN products and installation services, please contact us todav.
+                            We will be happy to answer any questions you may have and schedule a consultation.
+                            We look forward to hearing from you and working with you on your next project.</h2>
+                    </section>
+                </section>    
             </section>
             <section class="shadow-pop-header">
             <section class="review">
@@ -75,6 +107,7 @@ export default function Home() {
             </section>
         </section>
         <Footer />
+        </body>
     </div>
 
 }
