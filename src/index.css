@@ -31,15 +31,13 @@ body {
 
 .site-title {
   font-size: 2rem;
-  padding-top: 2px;
-  padding-left: 2px;
-  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-left: 10px;
   text-align: left;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .nav ul {
-  padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
@@ -53,8 +51,8 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  padding: .25rem;
   padding-right: 1%;
+  padding-left: 1.5%;
   font-size: 3rem;
   font-family: bebasneue-regular;
   color: #000;
@@ -66,6 +64,7 @@ body {
   border-color: #000;
   padding-right: 1%;
   background-color: #A20C32;
+  
 }
 
 .nav li:hover {

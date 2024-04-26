@@ -15,6 +15,7 @@ export default function Footer() {
             <h2>Andrew Arc Electric LLC.</h2>
             <h2>443-350-8335 </h2>
             <h2>aarchelectric@gmail.com</h2>
+            <h2>3382 Old Gamber Rd Finksburg MD, 21048</h2>
         </section>
         </section>
         </section>
