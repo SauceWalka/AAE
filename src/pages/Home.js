@@ -8,12 +8,12 @@ import Slider from "./Slider.js"
 export default function Home() {
     return <div>
         <section class="fullpage">
-                <section class="image_top">
+            <section class="image_top">
                 <section class="head_top">   
                     <section class="title">
                         <section class="title_content">
-                            <p><strong>Andrews Ark<br/>Electric LLC.</strong></p>
-                            <h4>8 years experience with Tesla products,<br/>and 2 years experience with span products</h4>
+                            <section class="main_title"><p><b>Andrews Ark<br/>Electric LLC.</b></p></section>
+                            <section class="subtitle"><p>8 years experience with Tesla products,<br/>and 2 years experience with span products</p></section>
                         </section>
                         <section class="certs">
                             <section class="cert1">
@@ -34,7 +34,7 @@ export default function Home() {
                         </section>
                     </section> 
                 </section>
-                </section>
+            </section>
             <section id="Projects" class="projects_title">
                 <h2>Completed Projects</h2>
             </section>
@@ -65,15 +65,15 @@ export default function Home() {
                 <section class="future_top">
                     <h2>Andrews Ark Electric: Your Trusted Partner for Tesla and SPAN Products</h2>
                     <h3>Quality Installation Services at Affordable Prices</h3>
-                    <h4>Are you looking for a reliable and professional company that can help you 
-                        with your Tesla and SPAN products? Do you want to enjoy the benefits of clean
-                        and efficient energy solutions for your home or business? If so, you have come
-                        to the right place. Andrews Ark Electric is a company that specializes in Tesla
-                        and SPAN products and installation services. We have the experience, expertise,
-                        and equipment to handle any project, big or small. Whether you need a Tesla
-                        Powerwall, a Tesla Solar Roof, a SPAN Smart Panel, or any other Tesla or SPAN
-                        product, we can install it for you with the highest quality and customer
-                        satisfaction.</h4>
+                    <h4>Are you looking for a Professional company to help with any of your 
+                        Tesla and SPAN products? Would you like to benefit from clean and 
+                        efficient energy solutions for your home or business? If so, you 
+                        have come to the right place! Andrews Ark Electric LLC specializes 
+                        in Tesla and SPAN products and installation services. We have the 
+                        experience, expertise, and equipment to handle any project, big or 
+                        small. Whether you need a Tesla powerwall, Tesla wall connector, a 
+                        SPAN Smart Panel, or any other Tesla or SPAN products, we can install 
+                        them for you with the highest quality and customer satisfaction..</h4>
                 </section>
                 <section class="future_middle">
                     <p>Here are some of the reasons why you should choose Andrews
