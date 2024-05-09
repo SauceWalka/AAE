@@ -29,4 +29,19 @@ export const sliderData = [
       heading: "Slide Six",
       desc: "This is the description of slide six Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
     },
+    {
+      image: "https://live.staticflickr.com/65535/53709027620_fb7d620525_k.jpg",
+      heading: "Slide Seven",
+      desc: "This is the description of slide six Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+     },
+     {
+      image: "https://live.staticflickr.com/65535/53708807478_a6fb782e65_k.jpg",
+      heading: "Slide Eight",
+      desc: "This is the description of slide six Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+     },
+     {
+      image: "https://live.staticflickr.com/65535/53708807413_9fd4b85e67_k.jpg",
+      heading: "Slide Nine",
+      desc: "This is the description of slide six Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+     }
   ];

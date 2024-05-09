@@ -62,10 +62,11 @@ export default function Home() {
             </section>
             <section id="Future" class="future_title"><h2>What We Do</h2></section>
             <section class="future">
+                <h2>Andrews Ark Electric: Your Trusted Partner for Tesla and SPAN Products<br/>
+                    Quality Installation Services at Affordable Prices</h2>
+                <section class="shadow-drop-center">
                 <section class="future_top">
-                    <h2>Andrews Ark Electric: Your Trusted Partner for Tesla and SPAN Products</h2>
-                    <h3>Quality Installation Services at Affordable Prices</h3>
-                    <h4>Are you looking for a Professional company to help with any of your 
+                    <p>Are you looking for a Professional company to help with any of your 
                         Tesla and SPAN products? Would you like to benefit from clean and 
                         efficient energy solutions for your home or business? If so, you 
                         have come to the right place! Andrews Ark Electric LLC specializes 
@@ -73,11 +74,13 @@ export default function Home() {
                         experience, expertise, and equipment to handle any project, big or 
                         small. Whether you need a Tesla powerwall, Tesla wall connector, a 
                         SPAN Smart Panel, or any other Tesla or SPAN products, we can install 
-                        them for you with the highest quality and customer satisfaction..</h4>
+                        them for you with the highest quality and customer satisfaction..</p>
                 </section>
+                </section>
+                <section class="shadow-drop-center">
                 <section class="future_middle">
-                    <p>Here are some of the reasons why you should choose Andrews
-                        Ark Electric for your Tesla and SPAN needs:</p>
+                    <p><b>Here are some of the reasons why you should choose Andrews
+                        Ark Electric for your Tesla and SPAN needs:</b></p>
                     <ul>
                         <li><p>We have a loyal and satisfied customer base. We have many positive reviews and testimonials from our previous clients who have enjoyed our services and products.</p></li>
                         <li><p>We provide a warranty and a guarantee for our work. We stand behind our quality and will fix any issues that may arise within the warranty period.</p></li>
@@ -86,12 +89,24 @@ export default function Home() {
                         <li><p>We are certified and authorized by Tesla and SPAN to install their products. This means we have the training and knowledge to follow their standards and specifications.</p></li>
                     </ul>
                 </section>
+                </section>
+                <section class="shadow-drop-center">
                 <section class="future_bottom">
-                    <h3>If you are interested in learning more about Andrews Ark Electric and how we can help
+                    <p>If you are interested in learning more about Andrews Ark Electric and how we can help
                         you with your Tesla and SPAN products and installation services, please contact us todav.
                         We will be happy to answer any questions you may have and schedule a consultation.
-                        We look forward to hearing from you and working with you on your next project.</h3>
+                        We look forward to hearing from you and working with you on your next project.</p>
                  </section>   
+                 </section>
+                <section class="add_services">
+                    <p>Additional Services</p>
+                    <section class="services">
+                    <h2 id="a" class="serv_items">Ground mount and<br/>solar rooftop systems</h2>
+                    <h2 id="b" class="serv_items">main service upgrades</h2>
+                    <h2 id="c" class="serv_items">new home wiring</h2>
+                    <h2 id="d" class="serv_items">sun panels and<br/>basement additions</h2>
+                    </section>
+                </section>
             </section>
             <section class="shadow-pop-header">
             <section class="review">
