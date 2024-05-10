@@ -25,7 +25,7 @@ export const sliderData = [
       desc: "This is the description of slide five Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
     },
     {
-      image: "https://live.staticflickr.com/65535/53610462357_dfda307017_k.jpg",
+      image: "https://live.staticflickr.com/65535/53711402381_971f6c1ac3_k.jpg",
       heading: "Slide Six",
       desc: "This is the description of slide six Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
     },
@@ -42,6 +42,11 @@ export const sliderData = [
      {
       image: "https://live.staticflickr.com/65535/53708807413_9fd4b85e67_k.jpg",
       heading: "Slide Nine",
+      desc: "This is the description of slide six Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+     },
+     {
+      image: "https://live.staticflickr.com/65535/53710497602_206a10683c_k.jpg",
+      heading: "Slide Ten",
       desc: "This is the description of slide six Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
      }
   ];

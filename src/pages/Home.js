@@ -12,8 +12,8 @@ export default function Home() {
                 <section class="head_top">   
                     <section class="title">
                         <section class="title_content">
-                            <section class="main_title"><p><b>Andrews Ark<br/>Electric LLC.</b></p></section>
-                            <section class="subtitle"><p>8 years experience with Tesla products,<br/>and 2 years experience with span products</p></section>
+                            <h2><b>Andrews Ark<br />Electric LLC.</b></h2>
+                            <p>8 years experience with Tesla products,<br/>and 2 years experience with span products</p>
                         </section>
                         <section class="certs">
                             <section class="cert1">
@@ -108,11 +108,9 @@ export default function Home() {
                     </section>
                 </section>
             </section>
-            <section class="shadow-pop-header">
             <section class="review">
                 <section id="Reviews" class="review_title"><h2>Reviews</h2></section>
                 <section class="review_content"><h2>Need python backend</h2></section>
-            </section>
             </section>
             <section class="reach_out">
                 <section class="b1_box">
