@@ -59,3 +59,45 @@
     font-size: 15px;
     color: #000;
 }
+
+@media only screen and (max-device-width: 450px) {
+    
+    .wholefoot {
+        gap: 10px;
+    }
+
+    .company {
+        flex-direction: column;
+        padding-left: 10px;
+        gap: 5px;
+    }
+
+    .foot img {
+        width: 60px;
+        height: 40px;
+    }
+    
+    .foot h1 {
+        font-size: 10px;
+    }
+    
+    .foot h2 {
+        font-size: 4px;
+    }
+       
+    .footdesc h1 {
+        font-size: 10px;
+        padding-bottom: 0px;
+    }
+    
+    .footdesc h2 {
+        font-size: 8px;
+        padding-top: 5px;
+    }
+
+    .footdesc img {
+        width: 15px;
+        height: 15px;
+    }
+    
+}

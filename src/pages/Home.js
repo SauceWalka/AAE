@@ -16,10 +16,10 @@ export default function Home() {
                     </div>
                     <div class="certs">
                         <div class="cert1">
-                            <img src={TCert} width="210" height="135"/>
+                            <img src={TCert} width="200" height="125"/>
                         </div>
                         <div class="cert2">
-                            <img src={TCert2} width="210" height="135"/>
+                            <img src={TCert2} width="200" height="125"/>
                         </div>
                     </div>
                 </div>
@@ -113,9 +113,9 @@ export default function Home() {
         </div>
         <div class="reach_out">
             <div class="b1_box">
-            <h2>Looking for a quote?</h2>
-                <p class="b1"><a href="mailto:aarchelectric@gmailcom">aarchelectric@gmail.com</a></p>
-                <p class="b1"><a href="tel:4433508335">Phone: 443-850-8335</a></p>
+                <h2>Looking for a quote?</h2>
+                <p class="b1"><a href="mailto:aarchelectric@gmailcom">Email</a></p>
+                <p class="b1"><a href="tel:4433508335">Call</a></p>
             </div>
         </div>
     <Footer />

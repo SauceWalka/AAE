@@ -34,33 +34,39 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
-    padding-bottom: 2%;
-    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-top: 9%;
 }
 
 .certs {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 25px;
     margin: 0;
 }
 
 .cert1 {
+    width: 210px;
+    height: 135px;
     border-style: solid;
     border-width: 6px;
     border-radius: 0;
     border-color: #000000;
     background-color: #FFFFFF;
+    justify-content: center;
 }
 
 .cert2 {
+    width: 210px;
+    height: 135px;
     border-style: solid;
     border-width: 6px;
     border-radius: 0;
     border-color: #000000;
     background-color: #FFFFFF;
+    justify-content: center;
 }
 
 .contact {
@@ -121,7 +127,6 @@
 
 .title_content p {
     font-size: 2.8em;
-
 }
 
 .projects {
@@ -295,7 +300,7 @@
 }
 
 .add_services p {
-    font-size: 4rem;
+    font-size: 3.75rem;
     text-shadow: 2px 2px 2px #000;
     color: #A20C32;
 }
@@ -380,7 +385,6 @@
     flex-direction: column;
     width: 100%;
     padding-bottom: 3%;
-    padding-top: 4%;
     align-items: center;
     padding-top: 2%;
 }
@@ -403,12 +407,190 @@
 
 .b1 {
     background-color: #A20C32;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 0.5%;
 }
 
 .b1 a {
-    font-size:3.2em;
+    font-size: 5.5em;
     color:#FFFFFF;
     padding: 10px;
+}
+
+@media only screen and (max-device-width: 450px) {
+
+    .title_content h2 {
+        font-size: 3em;
+    }
+
+    .title_content p {
+        font-size: 1.25em;
+    }     
+    
+    .contact {
+        border-width: .15em;
+    }
+
+    .contact h3 {
+        font-size: .35em;
+        padding-right: 2px;
+        padding-left: 2px;
+        line-height: 0;
+    }
+
+    .contact h2 {
+        font-size: .5em;
+        padding-top: 0;
+    }
+
+    .certs img {
+        width: 35px;
+        height: 25px;
+
+    }
+
+    .cert1 {
+        width: 35px;
+        height: 25px;
+        border-width: .1em;
+    }
+
+    .cert2 {
+        width: 35px;
+        height: 25px;
+        border-width: .1em;
+    }
+
+    .title_content h2 {
+        font-size: 1.75em;
+    }
+    
+    .title_content p {
+        font-size: .8em;
+    }
+
+    .projects_title {
+        font-size: .5em;
+        border-top: 5px solid #A20C32;
+    }
+    
+    .img_slider{
+        height: 150px;
+        border-width: .15em;
+    }
+
+    .learn_back {
+        background-image: url("https://live.staticflickr.com/65535/53695335389_2e300e9b40_z.jpg");
+    }
+    
+    .learn_title {
+        font-size: .5em;
+    }
+    
+    .learn_contents {
+        gap: 0px;
+    }
+
+    .learn_vidoes iframe {
+        width: 100px;
+        height: 75px;
+    }
+    
+    .learn_questions {
+        gap: 35px;
+    }
+    
+    .q {
+        padding-top: 3%;
+        padding-bottom: 5%;
+        width: 65%;
+        height: 65%;
+        line-height: 170%;
+        font-size: .5em;
+    }
+    .future {
+        gap: 40px;
+        padding-bottom: 5%;
+    }
+    
+    .future_title {
+        font-size: .5em;
+    }
+    .future h2 {
+        font-size: 1.7rem;
+        text-shadow: 1px 1px 2px #000;
+    }
+    
+    .future_top {
+        font-size: 1.5rem;
+    }
+    
+    .future_middle {
+        font-size: 1.25rem;
+        padding-top: 0;
+    }
+    
+    .future_bottom {
+        font-size: 1.5em;
+    }
+    
+    .add_services p {
+        font-size: 2.6rem;
+        text-shadow: 2px 2px 2px #000;
+    }
+    
+    .add_services h2 {
+        font-size: 1.25rem;
+        text-shadow: 1px 1px 2px #000;
+    }
+    
+    .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 3%;
+        width: 100%;
+    }
+
+    .serv_items {
+        height: 200px;
+    }
+
+    .review_title {
+    font-size: .5em;
+    }
+
+    .review_content {
+        font-size: .75em;
+    }
+
+    .reach_out {
+        width: 100%;
+        padding-bottom: 2.5%;
+    }
+    .b1_box {
+        gap: 5px;
+    }
+
+    .b1_box h2 {
+        font-size: 1.5em;
+    }
+    
+    .b1 {
+        border-radius: 8px;
+        padding: 0.5%;
+    }
+    
+    .b1 a {
+        font-size: 2em;
+        padding: 3px;
+    }
+}
+
+@media only screen and (max-device-width: 410px) {
+
+}
+
+@media only screen and (max-device-width: 380px) {
+
 }

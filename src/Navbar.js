@@ -13,12 +13,15 @@ export default function Navbar() {
             <li>
             <HashLink to="/#Projects"><b>Projects</b></HashLink>
             </li>
+            <li><p>|</p></li>
             <li>
             <HashLink to="/#Learn"><b>Learn</b></HashLink>
             </li>
+            <li><p>|</p></li>
             <li>
             <HashLink to="/#Future"><b>Future</b></HashLink>
             </li>
+            <li><p>|</p></li>
             <li>
             <HashLink to="/#Reviews"><b>Reviews</b></HashLink>
             </li>
