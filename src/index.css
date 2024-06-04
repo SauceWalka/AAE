@@ -20,11 +20,11 @@ body {
   color: #A20C32;
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   width: 100%;
   gap: 2rem;
   padding: 0;
-  padding-right: 60px;
+  padding-right: 40px;
   position: absolute;
   z-index: 1;
 }
@@ -32,7 +32,7 @@ body {
 .site-title {
   font-size: 2rem;
   padding-top: 15px;
-  padding-left: 10px;
+  padding-left: 0;
   text-align: left;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -57,8 +57,7 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  padding-right: 1%;
-  padding-left: 1.5%;
+  padding-left: 1%;
   font-size: 4rem;
   font-family: bebasneue-regular;
   text-shadow: 2px 2px 3px #000;
@@ -69,7 +68,7 @@ body {
 }
 
 .nav li {
-  padding-right: 1%;
+  padding-right: 0;
 }
 
 /* .nav li:hover {
@@ -78,23 +77,34 @@ body {
 
 @media only screen and (max-device-width: 450px) {
   .nav {
-    padding-right: 10px;
+    padding-right: 15px;
+    gap: 0;
+  }
+
+  .site-title {
+    padding-top: 0;
   }
 
   .nav img {
-    width: 40px;
-    height: 38px;
+    width: 50px;
+    height: 30px;
+    padding-top: 6%;
   }
 
   .nav a {
-    font-size: 20px;
+    font-size: .9em;
   }
   .nav p {
-    font-size: 20px;
+    font-size: 1.2em;
+  }
+  .nav ul {
+    gap: .5rem;
+    padding-top: 0;
+    padding-left: 0;
   }
 }
 
-@media only screen and (max-device-width: 410px) {
+/*@media only screen and (max-device-width: 410px) {
   .nav {
     padding-right: 35px;
   }
@@ -103,3 +113,4 @@ body {
     font-size: 15px;
   }
 }
+*/

@@ -66,9 +66,13 @@
         gap: 10px;
     }
 
+    .foot {
+        padding: 0;
+    }
+
     .company {
         flex-direction: column;
-        padding-left: 10px;
+        padding-left: 0;
         gap: 5px;
     }
 
