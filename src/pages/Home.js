@@ -94,9 +94,9 @@ export default function Home() {
             <div class="add_services">
                 <p>Additional Services</p>
                 <div class="services">
-                <h2 id="a" class="serv_items">Ground mount and<br/>solar rooftop systems</h2>
-                <h2 id="b" class="serv_items">Main service upgrade and sub-panels</h2>
-                <h2 id="c" class="serv_items">New home wiring and basement additions</h2>
+                <h2 id="a" class="serv_items">Ground mount and<br/>solar roof top systems</h2>
+                <h2 id="b" class="serv_items">Main service upgrade<br/>and sub-panels</h2>
+                <h2 id="c" class="serv_items">New home wiring<br/>and basement additions</h2>
                 <h2 id="d" class="serv_items">Solar panel maintenance<br/>and upgrade</h2>
             </div>
             </div>

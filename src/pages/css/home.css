@@ -34,8 +34,8 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
-    padding-bottom: 5%;
-    padding-top: 9%;
+    padding-bottom: 7%;
+    padding-top: 11%;
 }
 
 .certs {
@@ -306,7 +306,7 @@
 }
 
 .add_services h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-shadow: 2px 2px 2px #000;
     color: #FFFFFF;
 }
@@ -332,28 +332,28 @@
 }
 
 #a {
-    background-image: url("https://live.staticflickr.com/65535/53708954389_19eb10db3c_b.jpg");
+    background-image: url("https://live.staticflickr.com/65535/53756587753_7b7e877562_w.jpg");
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
 }
 
 #b {
-    background-image: url("https://live.staticflickr.com/65535/53708838508_14d076c8af_b.jpg") ;
+    background-image: url("https://live.staticflickr.com/65535/53768246739_facf8324f0_w.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
 }
 
 #c {
-    background-image: url("https://live.staticflickr.com/65535/53709058590_803378e94a_o.jpg") ;
+    background-image: url("https://live.staticflickr.com/65535/53756390126_b26e56585d_w.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
 }
 
 #d {
-    background-image: url("https://live.staticflickr.com/65535/53708954384_a78d7d9965_b.jpg");
+    background-image: url("https://live.staticflickr.com/65535/53756802860_09911ab397_w.jpg");
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
