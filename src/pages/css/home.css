@@ -249,11 +249,18 @@
     font-family: bebasneue-regular;
     font-size: 2em;
 }
+
 .future h2 {
     font-family: bebasneue-regular;
     font-size: 4rem;
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 3px #000;
     color: #A20C32;
+}
+
+#future_subtitle {
+    font-family: bebasneue-regular;
+    font-size: 3rem;
+    color: #000000;
 }
 
 .future_top {
@@ -516,6 +523,11 @@
     .future_title {
         font-size: .5em;
     }
+
+    #future_subtitle {
+        font-size: 1.25rem;
+    }
+
     .future h2 {
         font-size: 1.7rem;
         text-shadow: 1px 1px 2px #000;

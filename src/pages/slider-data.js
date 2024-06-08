@@ -55,38 +55,18 @@ export const sliderData = [
       desc: "This is the description of slide eleven Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
      },
      {
-      image: "https://live.staticflickr.com/65535/53756802860_09911ab397.jpg",
-      heading: "Slide Twelve",
+      image: "https://live.staticflickr.com/65535/53755480657_6a66a3614e.jpg",
+      heading: "Slide Twleve",
       desc: "This is the description of slide twelve Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
      },
      {
-      image: "https://live.staticflickr.com/65535/53755480657_6a66a3614e.jpg",
+      image: "https://live.staticflickr.com/65535/53756390126_b26e56585d.jpg",
       heading: "Slide Thirteen",
       desc: "This is the description of slide thirteen Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
      },
      {
-      image: "https://live.staticflickr.com/65535/53756802990_157f746355.jpg",
+      image: "https://live.staticflickr.com/65535/53756802940_f17b21b2f7.jpg",
       heading: "Slide Fourteen",
       desc: "This is the description of slide fourteen Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
      },
-     {
-      image: "https://live.staticflickr.com/65535/53756390126_b26e56585d.jpg",
-      heading: "Slide Fifteen",
-      desc: "This is the description of slide fifteen Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
-     },
-     {
-      image: "https://live.staticflickr.com/65535/53756802880_71d89ab9df.jpg",
-      heading: "Slide Sixteen",
-      desc: "This is the description of slide sixteen Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
-     },
-     {
-      image: "https://live.staticflickr.com/65535/53756802940_f17b21b2f7.jpg",
-      heading: "Slide Seventeen",
-      desc: "This is the description of slide seventeen Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
-     },
-     {
-      image: "https://live.staticflickr.com/65535/53756390166_f0a2b9b98b.jpg",
-      heading: "Slide Eighteen",
-      desc: "This is the description of slide eighteen Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
-     }
   ];

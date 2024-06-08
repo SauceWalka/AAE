@@ -63,6 +63,7 @@ export default function Home() {
         <div class="future">
             <h2>Andrews Ark Electric: Your Trusted Partner for Tesla and SPAN Products<br/>
                 Quality Installation Services at Affordable Prices</h2>
+            <p id="future_subtitle"><b>8 years experience with Tesla products, and 2 years experience with Span products</b></p>
             <div class="shadow-drop-center">
             <div class="future_top">
                 <p>Are you looking for a Professional company to help with any of your 
@@ -92,7 +93,7 @@ export default function Home() {
             <div class="shadow-drop-center">
             </div>
             <div class="add_services">
-                <p>Additional Services</p>
+                <p>Ask about our additional services, some are coming soon</p>
                 <div class="services">
                 <h2 id="a" class="serv_items">Ground mount and<br/>solar roof top systems</h2>
                 <h2 id="b" class="serv_items">Main service upgrade<br/>and sub-panels</h2>
