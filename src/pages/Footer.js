@@ -7,11 +7,11 @@ import logomono from "./images/logo.png"
 export default function Footer() {
     return ( 
         <div>
-        <section class="wholefoot">
-        <section class="foot">
-        <section class="company">
+        <section className="wholefoot">
+        <section className="foot">
+        <section className="company">
             <img src={logomono} width="150" height="75" />
-        <section class="companyinfo">
+        <section className="companyinfo">
             <h2>Andrew Arc Electric LLC.</h2>
             <h2>443-350-8335</h2>
             <h2>aarchelectric@gmail.com</h2>
@@ -19,23 +19,23 @@ export default function Footer() {
         </section>
         </section>
         </section>
-        <section class="footdesc">
-        <section class="center">
+        <section className="footdesc">
+        <section className="center">
             <h1><b>Contact</b></h1>
             <h2><a href="mailto: johnlindemon@hbindustry.co?">Problems with Site</a></h2>
         </section>
-        <section class="center">
+        <section className="center">
             <h1><b>Associates Links</b></h1>
             <h2><a href="hbindustry.co">HBIndustry</a></h2>
         </section>
-        <section class="center">
+        <section className="center">
             <h1><b>Resources</b></h1>
             <h2>Graphics by <a href="hbindustry.co">HBIndustry</a></h2>
             <h2><Link to="/FAQ">
                     Frequently Asked Questions
                 </Link></h2>  
         </section>
-        <section class="center">
+        <section className="center">
             <h1><b>Social</b></h1>
             <h2><a href="https://www.facebook.com"><img src={fb} width="40" height="40" /></a></h2>
             <h2><a href="https://www.instagram.com"><img src={insta} width="40" height="40" /></a></h2>
