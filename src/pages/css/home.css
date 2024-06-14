@@ -399,7 +399,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     gap: 5%;
-    width: 100%;
+    width: 33%;
 }
 
 .serv_items {
