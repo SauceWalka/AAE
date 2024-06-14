@@ -196,7 +196,6 @@ export default function Home() {
             </div>   
         </div>
         <div className="review">
-            <div id="Reviews" className="review_title"><h2>Reviews</h2></div>
             <div id="reviewsContainer">
                 {
                     reviews && reviews.map((reviewObj, index) => {
