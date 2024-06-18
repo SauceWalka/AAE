@@ -151,7 +151,7 @@
     background: none;
     border: none;
     outline: none;
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 .star-rating .on .star {
@@ -452,7 +452,7 @@
 .review_title {
     text-align: left;
     padding-left: 40px;
-    padding-top: 10px;
+    padding-top: 2%;
     color:#A20C32;
     font-family: bebasneue-regular;
     font-size: 30px !important;
@@ -469,7 +469,7 @@
     width: 100%;
     padding-bottom: 3%;
     align-items: center;
-    padding-top: 2%;
+    padding-top: 5%;
 }
 
 .b1_box {
@@ -650,6 +650,25 @@
 
     .review_content {
         font-size: .75em;
+    }
+    
+    .star-rating button {
+        font-size: .7em;
+    }
+
+    .formGroup input {
+        font-size: 10px;
+    }
+    
+    .formGroup textarea {
+        font-size: 10px;
+    }
+
+    .contact h3, #reviewsContainer h3, #submitReviewsContainer h3 {
+        font-size: 1.1em;
+    }
+    #submitReview {
+        font-size: 20px;
     }
 
     .reach_out {

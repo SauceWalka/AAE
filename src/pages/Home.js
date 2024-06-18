@@ -182,10 +182,10 @@ export default function Home() {
             <div className="add_services">
                 <p>Ask about our additional services, some are coming soon</p>
                 <div class="services">
-                <h2 id="a" className="serv_items">Ground mount and<br/>solar roof top systems</h2>
+                {/* <h2 id="a" className="serv_items">Ground mount and<br/>solar roof top systems</h2>  */}
                 <h2 id="b" className="serv_items">Main service upgrade<br/>and sub-panels</h2>
                 <h2 id="c" className="serv_items">New home wiring<br/>and basement additions</h2>
-                <h2 id="d" className="serv_items">Solar panel maintenance<br/>and upgrade</h2>
+                {/* <h2 id="d" className="serv_items">Solar panel maintenance<br/>and upgrade</h2> */}
             </div>
             </div>
             <div className="future_bottom">
@@ -227,7 +227,7 @@ export default function Home() {
                     <textarea rows="5" style={{width: '80%'}} onChange={e => setReview(e.target.value)} value={review}/>
                     <div className="formGroup">
                         <h3>Rating:</h3>
-                        <StarRating rating={rating} setRating={setRating}></StarRating>
+                        <StarRating id="Stars" rating={rating} setRating={setRating}></StarRating>
                     </div>
                     <button id="submitReview" onClick={submitReview}>
                         Submit
