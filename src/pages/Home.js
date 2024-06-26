@@ -242,6 +242,10 @@ export default function Home() {
                 <p className="b1"><a href="tel:4433508335">Call</a></p>
             </div>
         </div>
+        <div className="add_link">
+            <p className="add_link_text"><b>Click here for more info on the Electric Vehicle Supply Equipment (EVSE) Rebate Program</b></p>
+            <p><a href="https://energy.maryland.gov/transportation/pages/incentives_evserebate.aspx">https://energy.maryland.gov/transportation</a></p>
+        </div>
     <Footer />
     </div>
 }
