@@ -503,11 +503,15 @@
 .add_link {
     display: flex;
     flex-direction: column;
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: bebasneue-regular;
     width: 100%;
     padding-bottom: 2%;
     text-align: center;
+}
+
+.add_link_text {
+    padding-top: 1%;
 }
 
 @media only screen and (max-device-width: 450px) {
