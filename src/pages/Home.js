@@ -112,11 +112,11 @@ export default function Home() {
                 </div>
                 <div className="contact_space">
                     <div className="contact">
-                        <h2><b>Contact</b></h2>
-                        <h3>Jonathan Andrews</h3>
-                        <h3>443-350-8335</h3>
-                        <h3>aarchelectric@gmail.com</h3>
-                        <h3>Finksburg, MD 21048</h3>
+                        <h4><b>Contact</b></h4>
+                        <h5>Jonathan Andrews</h5>
+                        <h5>443-350-8335</h5>
+                        <h5>aarchelectric@gmail.com</h5>
+                        <h5>Finksburg, MD 21048</h5>
                     </div>
                 </div> 
             </div>
