@@ -26,19 +26,20 @@ export default function Footer() {
         </section>
         <section className="center">
             <h1><b>Associates Links</b></h1>
-            <h2><a href="hbindustry.co">HBIndustry</a></h2>
+            <h2><a href="hbindustry.co" target="_blank">HBIndustry</a></h2>
         </section>
         <section className="center">
             <h1><b>Resources</b></h1>
-            <h2>Graphics by <a href="hbindustry.co">HBIndustry</a></h2>
-            <h2><Link to="/FAQ">
+            <h2>Graphics by <a href="hbindustry.co" target="_blank">HBIndustry</a></h2>
+            <h2><Link to="/FAQ" target="_blank">
                     Frequently Asked Questions
-                </Link></h2>  
+                </Link></h2>
+            <h2><a href="https://energy.maryland.gov/transportation/pages/incentives_evserebate.aspx" target="_blank">Rebate Program</a></h2>
         </section>
         <section className="center">
             <h1><b>Social</b></h1>
-            <h2><a href="https://www.facebook.com"><img src={fb} width="40" height="40" /></a></h2>
-            <h2><a href="https://www.instagram.com"><img src={insta} width="40" height="40" /></a></h2>
+            <h2><a href="https://www.facebook.com" target="_blank"><img src={fb} width="40" height="40" /></a></h2>
+            <h2><a href="https://www.instagram.com" target="_blank"><img src={insta} width="40" height="40" /></a></h2>
         </section>
         </section>
         </section>

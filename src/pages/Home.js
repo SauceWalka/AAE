@@ -244,7 +244,7 @@ export default function Home() {
         </div>
         <div className="add_link">
             <p className="add_link_text"><b>Click here for more info on the Electric Vehicle Supply Equipment (EVSE) Rebate Program</b></p>
-            <p><a href="https://energy.maryland.gov/transportation/pages/incentives_evserebate.aspx">https://energy.maryland.gov/transportation</a></p>
+            <p><a href="https://energy.maryland.gov/transportation/pages/incentives_evserebate.aspx" target="_blank">https://energy.maryland.gov/transportation</a></p>
         </div>
     <Footer />
     </div>
