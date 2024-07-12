@@ -69,4 +69,9 @@ export const sliderData = [
       heading: "Slide Fourteen",
       desc: "This is the description of slide fourteen Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
      },
+     {
+      image: "https://live.staticflickr.com/65535/53851292887_224938eb6c_o.jpg",
+      heading: "Slide Fifteen",
+      desc: "This is the description of slide fifteen Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+     }
   ];
