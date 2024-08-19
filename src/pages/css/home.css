@@ -247,7 +247,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     z-index: 1;
 }
 
@@ -287,6 +287,7 @@
     color:#A20C32;
     font-family: bebasneue-regular;
     font-size: 2em;
+    padding-top: 4%;
 }
 
 .learn_contents {
@@ -299,9 +300,9 @@
     display: flex;
     flex-direction: column;
     width: 70%;
-    gap: 50px;
+    gap: 30px;
     padding-top: 1%;
-    padding-bottom: 4%;
+    padding-bottom: 8%;
     padding-left: 5%;
 }
 
@@ -310,7 +311,8 @@
     flex-direction: column;
     width: 70%;
     gap: 35px;
-    padding-bottom: 3%;
+    padding-bottom: 9%;
+    padding-top: 3%;
     padding-left: 6.5%;
 }
 
@@ -318,8 +320,8 @@
     background-color: #A20C32;
     border-radius: 50%;
     color:#F9F8F9;
-    padding-top: 3%;
-    padding-bottom: 5%;
+    padding-top: 7%;
+    padding-bottom: 2%;
     width: 65%;
     height: 65%;
     align-items: center;
@@ -597,7 +599,7 @@
     }
 
     .projects_title {
-        font-size: .5em;
+        font-size: .6em;
         border-top: 5px solid #A20C32;
     }
     
@@ -611,11 +613,15 @@
     }
     
     .learn_title {
-        font-size: .5em;
+        font-size: .6em;
     }
     
     .learn_contents {
         gap: 0px;
+    }
+
+    .learn_vidoes {
+        gap: 15px;
     }
 
     .learn_vidoes iframe {
@@ -624,15 +630,15 @@
     }
     
     .learn_questions {
-        gap: 35px;
+        gap: 25px;
     }
     
     .q {
-        padding-top: 3%;
-        padding-bottom: 5%;
+        padding-top: 14%;
+        padding-bottom: 0;
         width: 65%;
         height: 65%;
-        line-height: 170%;
+        line-height: 210%;
         font-size: .5em;
     }
     .future {
@@ -641,7 +647,7 @@
     }
     
     .future_title {
-        font-size: .5em;
+        font-size: .6em;
     }
 
     #future_subtitle {
