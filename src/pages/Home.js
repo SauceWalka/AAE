@@ -49,7 +49,7 @@ function StarRating({ rating, setRating, mutable}) {
     );
 }
 
-const BACKEND_URL = "https://hbindustry-test.com/";
+const BACKEND_URL = "https://andrewsarkelectric.com//";
 
 export default function Home() {
 
