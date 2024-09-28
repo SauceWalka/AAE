@@ -4,13 +4,8 @@ import os
 import sys
 from flask import Flask, send_from_directory, request, abort
 from flask_cors import CORS
+import requests
 
-config_data = {
-    "backend_port": "3001",
-}
-
-backend_port = int(config_data['backend_port'])
-            
 app = Flask(__name__)
 
 @app.route('/FAQ')
@@ -18,31 +13,45 @@ app = Flask(__name__)
 def serve_index():
     return send_from_directory('build', 'index.html')
 
-reviews_path = os.path.join(os.path.dirname(__file__), 'reviews.json')
+def get_api_key() -> str:
+    with open('api_key.txt', 'r') as inp_file:
+        return inp_file.read().strip()
 
 def get_reviews():
-    if not os.path.exists(reviews_path):
-        return []
-    with open(reviews_path, 'r') as reviews_file:
-        return json.load(reviews_file)
+    print('called api!')
+    API_KEY = get_api_key()
+    url = f"https://places.googleapis.com/v1/places/ChIJ_xi1nnpCZo8Ryp6AOyBkHDE?fields=reviews&key={API_KEY}"
+    response = requests.get(url)
+    data = response.json()
+    reviews = []
+    if 'reviews' in data:
+        review_objs = data['reviews']
+        for review_obj in review_objs:
+            data = {}
+            if 'text' in review_obj and 'text' in review_obj['text']:
+                data['review'] = review_obj['text']['text']
+            if 'authorAttribution' in review_obj and 'displayName' in review_obj['authorAttribution']:
+                data['author'] = review_obj['authorAttribution']['displayName']
+            if 'publishTime' in review_obj:
+                data['date'] = datetime.datetime.strptime(review_obj['publishTime'], "%Y-%m-%dT%H:%M:%SZ").strftime("%m/%d/%Y")
+            if 'rating' in review_obj:
+                data['rating'] = review_obj['rating']
+            reviews.append(data)
+    return reviews
+
+CACHED_DATA = []
+DATA_DATE = None
 
 @app.route('/api/reviews/getReviews', methods=['GET'])
 def get_reviews_route():
-    return get_reviews()
-
-@app.route('/api/reviews/add', methods=['POST'])
-def add_review():
-    date = datetime.datetime.now().strftime('%m/%d/%Y')
-    data = request.get_json()
-    name = str(data['name'])
-    message = str(data['review'])
-    rating = int(data['rating'])
-    curr_reviews = get_reviews()
-    if len(name) <= 100 and len(message) <= 3000 and rating >= 0 and rating <= 5 and len(name) >= 5:
-        curr_reviews.append({ 'date': date, 'name': name, 'message': message, 'rating': rating})
-        with open(reviews_path, 'w') as reviews_file:
-            json.dump(curr_reviews, reviews_file, indent=4)
-    return curr_reviews
+    global CACHED_DATA
+    global DATA_DATE
+    curr_datetime = datetime.datetime.now()
+    # update data every 30 minutes
+    if DATA_DATE is None or (curr_datetime - DATA_DATE).total_seconds() / 60 >= 30:
+        CACHED_DATA = get_reviews()
+        DATA_DATE = curr_datetime
+    return CACHED_DATA
 
 @app.route('/static/js/<path:filename>')
 @app.route('/static/css/<path:filename>')

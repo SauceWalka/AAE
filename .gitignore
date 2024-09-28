@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 reviews.json
+api_key.txt
+test.py

@@ -33,16 +33,15 @@ function StarRating({ rating, setRating, mutable}) {
         <div className="star-rating">
             {[...Array(5)].map((unused, index) => {
                 return (
-                    <button
+                    <div
                         style={buttonStyles}
-                        type="button"
                         key={index}
                         className={((index <= hover) || (index < rating)) ? "on" : "off"}
                         onClick={() => acutalSetRating(index + 1)}
                         onMouseEnter={() => setHover(index)}
                         onMouseLeave={() => setHover(rating - 1)}>
-                        <span className="star">&#9733;</span>
-                    </button>
+                        <div className="star">&#9733;</div>
+                    </div>
                 );
             })}
         </div>
@@ -184,8 +183,8 @@ export default function Home() {
             </div>
             <div className="add_services">
                 <p>Ask about our additional services, some are coming soon</p>
-                <div class="services">
-                {/* <h2 id="a" className="serv_items">Ground mount and<br/>solar roof top systems</h2>  */}
+                <div className="services">
+                <h2 id="a" className="serv_items">Ground mount and<br/>solar roof top systems</h2>
                 <h2 id="b" className="serv_items">Main service upgrade<br/>and sub-panels</h2>
                 <h2 id="c" className="serv_items">New home wiring<br/>and basement additions</h2>
                 {/* <h2 id="d" className="serv_items">Solar panel maintenance<br/>and upgrade</h2> */}
@@ -206,8 +205,8 @@ export default function Home() {
                             <div key={index} style={{width: reviewWidth}}>
                                 <div>
                                     <h3>{reviewObj.date}</h3>
-                                    <h3 style={{textDecoration: 'underline'}}>{reviewObj.name}</h3>
-                                    <h3>{reviewObj.message}</h3>
+                                    <h3 style={{textDecoration: 'underline'}}>{reviewObj.author}</h3>
+                                    <h3>{reviewObj.review}</h3>
                                     <div className="formGroup">
                                         <StarRating rating={reviewObj.rating} setRating={() => {}} mutable={false}></StarRating>
                                     </div>
@@ -217,25 +216,13 @@ export default function Home() {
                     })
                 }
             </div>
-        </div>
-        <div className="review" style={{position: 'relative', top: '30px'}}>
-            <div id="Reviews" className="review_title"><h2>Submit a Review</h2></div>
-            <div id="submitReviewsContainer">
-                <div style={{width: submitReviewWidth}}>
-                    <div className="formGroup">
-                        <h3>Name:</h3>
-                        <input type="text" style={{width: '40%'}} onChange={e => setName(e.target.value)} value={name}/>
-                    </div>
-                    <h3>Review</h3>
-                    <textarea rows="5" style={{width: '80%'}} onChange={e => setReview(e.target.value)} value={review}/>
-                    <div className="formGroup">
-                        <h3>Rating:</h3>
-                        <StarRating id="Stars" rating={rating} setRating={setRating}></StarRating>
-                    </div>
-                    <button id="submitReview" onClick={submitReview}>
-                        Submit
-                    </button>
-                </div>
+            <div id="Reviews" className="review_title">
+                <h2>
+                    <a style={{color: '#A20C32', textDecoration: 'underline'}}
+                        href="https://g.co/kgs/Gch5z1F">
+                        Leave a Review
+                    </a>
+                </h2>
             </div>
         </div>
         <div className="reach_out">
