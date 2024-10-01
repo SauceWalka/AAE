@@ -73,6 +73,7 @@ export default function Home() {
                 <div className="title">
                     <div className="title_content">
                         <h2><b>Andrews Ark<br />Electric LLC.</b></h2>
+                         <p>21 years of Electrical experience</p>
                         <p>8 years experience with Tesla products,<br/>and 2 years experience with span products</p>
                     </div>
                     <div className="certs">
@@ -127,6 +128,7 @@ export default function Home() {
         <div className="future">
             <h2>Andrews Ark Electric: Your Trusted Partner for Tesla and SPAN Products<br/>
                 Quality Installation Services at Affordable Prices</h2>
+            <p id="future_subtitle"><b>21 years of Electrical experience</b></p>
             <p id="future_subtitle"><b>8 years experience with Tesla products, and 2 years experience with Span products</b></p>
             <div className="shadow-drop-center">
             <div className="future_top">
@@ -203,13 +205,14 @@ export default function Home() {
         <div className="reach_out">
             <div className="b1_box">
                 <h2>Looking for a quote?</h2>
-                <p className="b1"><a href="mailto:aarchelectric@gmailcom">Email</a></p>
+                <p className="b1"><a href="mailto:aarchelectric@gmail.com">Email</a></p>
                 <p className="b1"><a href="tel:4433508335">Call</a></p>
             </div>
         </div>
         <div className="add_link">
             <p className="add_link_text"><b>Click here for more info on the Electric Vehicle Supply Equipment (EVSE) Rebate Program</b></p>
             <p><a href="https://energy.maryland.gov/transportation/pages/incentives_evserebate.aspx" target="_blank" rel="noreferrer">https://energy.maryland.gov/transportation</a></p>
+            <p><a href="https://bge.chooseev.com/promos/" target="_blank">BGE Rebates</a></p>
         </div>
     <Footer />
     </div>
