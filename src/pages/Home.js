@@ -107,7 +107,7 @@ export default function Home() {
                 <div><iframe width="1366" height="768" src="https://www.youtube-nocookie.com/embed/sFagRON6uZ8?si=Y4lVeTpP5nn_TSWW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
             </div>
             <div className="flyer">
-                <div><img src="https://live.staticflickr.com/65535/54041037476_d62a3dccf6_k.jpg"></img></div>
+                <div><img src="https://live.staticflickr.com/65535/54041037476_d62a3dccf6_k.jpg"/></div>
             </div>
         </div>
         <div className="learn_back">
