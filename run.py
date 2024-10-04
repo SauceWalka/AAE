@@ -1,6 +1,7 @@
 import datetime
 import json
 import os
+import re
 import sys
 from flask import Flask, send_from_directory, request, abort
 from flask_cors import CORS
@@ -33,7 +34,11 @@ def get_reviews():
             if 'authorAttribution' in review_obj and 'displayName' in review_obj['authorAttribution']:
                 data['author'] = review_obj['authorAttribution']['displayName']
             if 'publishTime' in review_obj:
-                data['date'] = datetime.datetime.strptime(review_obj['publishTime'], "%Y-%m-%dT%H:%M:%SZ").strftime("%m/%d/%Y")
+                matches = re.findall(r'(\d{4})-(\d{2})-(\d{2})', review_obj['publishTime'])
+                if len(matches) > 0:
+                    match_group = matches[0]
+                    year, month, day = match_group[0], match_group[1], match_group[2]
+                    data['date'] = f'{month}/{day}/{year}'
             if 'rating' in review_obj:
                 data['rating'] = review_obj['rating']
             reviews.append(data)
