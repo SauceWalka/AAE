@@ -282,6 +282,12 @@
     vertical-align: bottom;
 }
 
+.flyer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .learn_back {
     background-image: url("https://live.staticflickr.com/65535/53695335389_ea80a856e9_k.jpg");
     background-repeat: no-repeat;
@@ -630,6 +636,11 @@
         border-width: .15em;
     }
     .tesla_wall iframe {
+        width: 240px;
+        height: 135px;
+    }
+
+    .flyer {
         width: 240px;
         height: 135px;
     }
