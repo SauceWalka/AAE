@@ -282,11 +282,9 @@
     vertical-align: bottom;
 }
 
-.flyer {
-    display: flex;
-    flex-direction: row;
+.span_flyer {
+    padding-top: 4%;
     justify-content: center;
-    width: 75%;
 }
 
 .learn_back {
@@ -641,9 +639,10 @@
         height: 135px;
     }
 
-    .flyer {
-        width: 240px;
-        height: 135px;
+    .span_flyer img {
+        width: 280px;
+        height: 350px;
+        justify-content: center;
     }
 
     .learn_back {
